@@ -11,6 +11,9 @@ class UserFavAdmin(object):
     list_display = ['user', 'goods', "add_time"]
 
 
+
+
+
 class UserLeavingMessageAdmin(object):
     list_display = ['user', 'message_type', "message", "add_time"]
 
