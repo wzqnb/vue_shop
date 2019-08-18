@@ -50,9 +50,16 @@ INSTALLED_APPS = [
     'crispy_forms',
     'DjangoUeditor',
     'reversion',
+    'django_filters',
+    'rest_framework',
+    'social_django',
+    'rest_framework.authtoken',
+    'corsheaders',
+
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -60,9 +67,17 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    # 'cors.cors.CORSMiddleware'
 ]
 
 ROOT_URLCONF = 'myshopping.urls'
+CORS_ORIGIN_ALLOW_ALL = True
+CORS_ORIGIN_WHITELIST = [
+    'http://localhost:3000',
+    'http://localhost:8000',
+    'http://localhost:8080',
+]
+
 
 TEMPLATES = [
     {
@@ -134,6 +149,7 @@ USE_TZ = False
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
+# 设置上传文件，图片访问路径
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
@@ -142,3 +158,7 @@ STATICFILES_DIRS = [
 MEDIA_URL = "/media/"
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+
+
+# 手机号码正则表达式
+REGEX_MOBILE = "^1[358]\d{9}$|^147\d{8}$|^176\d{8}$"
