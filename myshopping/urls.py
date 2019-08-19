@@ -21,14 +21,6 @@ from django.urls import path, re_path, include
 from django.views.static import serve
 from myshopping.settings import MEDIA_ROOT
 
-from rest_framework.documentation import include_docs_urls
-from goods.views import CategoryViewset
-
-from rest_framework.routers import DefaultRouter
-router=DefaultRouter()
-
-
-router.register(r'categorys',CategoryViewset,base_name="goodsDetail")
 urlpatterns = [
     path('xadmin/', xadmin.site.urls),
     # 引入xadmin
@@ -36,8 +28,4 @@ urlpatterns = [
     # 引入djangoUeditor
     # 处理图片显示的url,使用Django自带serve,传入参数告诉它去哪个路径找，我们有配置好的路径MEDIAROOT
     re_path('media/(?P<path>.*)', serve, {"document_root": MEDIA_ROOT}),
-    # url(r'^goods',GoodDetailSerializers.as_view({"get":"list","post":"create"}),name="goods")
-    # router的path路径
-    re_path('^', include(router.urls)),
-
 ]
