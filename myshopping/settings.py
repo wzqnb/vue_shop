@@ -42,17 +42,22 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'users.apps.UsersConfig',
+    'users',
     'goods.apps.GoodsConfig',
     'trade.apps.TradeConfig',
     'user_operation.apps.UserOperationConfig',
+    'rest_framework',
     'xadmin',
     'crispy_forms',
+    'corsheaders',
     'DjangoUeditor',
     'reversion',
+    'django_filters',
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -63,6 +68,13 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'myshopping.urls'
+CORS_ORIGIN_ALLOW_ALL = True
+# CORS_ORIGIN_WHITELIST = (
+#     '127.0.0.1:3000'
+#     '127.0.0.1:8000'
+#     '127.0.0.1:8080'
+# )
+
 
 TEMPLATES = [
     {
@@ -112,6 +124,31 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
+# 手机号码正则表达式
+REGEX_MOBILE = "^1[358]\d{9}$|^147\d{8}$|^176\d{8}$"
+
+# 所有与drf相关的设置写在这里面
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.BasicAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+    ),
+    'DEFAULT_THROTTLE_CLASSES': (
+        'rest_framework.throttling.AnonRateThrottle',
+        'rest_framework.throttling.UserRateThrottle'
+    ),
+    'DEFAULT_THROTTLE_RATES': {
+        'anon': '100/day',
+        'user': '1000/day'
+    },
+    'DEFAULT_FILTER_BACKENDS': ('django_filters.rest_framework.DjangoFilterBackend',)
+}
+
+# 云片网设置
+APIKEY = 'ba789d57af5b55d7564dc82279463bc6'
+
 
 
 # Internationalization
