@@ -68,6 +68,7 @@ class SmsCodeViewset(CreateModelMixin, viewsets.GenericViewSet):
         yun_pian = YunPian(APIKEY)
 
         code = self.generate_code()
+        code=1236
 
         sms_status = yun_pian.send_sms(code=code, mobile=mobile)
 

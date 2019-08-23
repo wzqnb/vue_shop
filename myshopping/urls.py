@@ -21,6 +21,8 @@ from django.urls import path, re_path, include
 from django.views.static import serve
 from myshopping.settings import MEDIA_ROOT
 from rest_framework.authtoken import views
+from rest_framework.documentation import include_docs_urls
+
 
 from rest_framework_jwt.views import obtain_jwt_token
 from rest_framework.routers import DefaultRouter
@@ -63,5 +65,7 @@ urlpatterns = [
     path('login/', obtain_jwt_token),
     # router的path路径
     re_path('^', include(router.urls)),
+    # 自动化文档,1.11版本中注意此处前往不要加$符号
+    path('docs/', include_docs_urls(title='mtianyan超市文档')),
 
 ]

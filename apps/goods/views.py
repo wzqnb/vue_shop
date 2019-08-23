@@ -50,7 +50,7 @@ class GoodsListViewSet( mixins.ListModelMixin, mixins.RetrieveModelMixin, viewse
     queryset = Goods.objects.all()
 
     # 设置列表页的单独auth认证也就是不认证
-    # authentication_classes = (TokenAuthentication,)
+    authentication_classes = (TokenAuthentication,)
 
     # 设置三大常用过滤器之DjangoFilterBackend, SearchFilter
     filter_backends = (DjangoFilterBackend, filters.SearchFilter, filters.OrderingFilter)
@@ -107,6 +107,7 @@ class CategoryViewset(mixins.ListModelMixin, mixins.RetrieveModelMixin, viewsets
     """
     queryset = GoodsCategory.objects.filter(category_type=1)
     serializer_class = CategorySerializer
+    authentication_classes = (TokenAuthentication,)
 # class HotSearchsViewset(mixins.ListModelMixin, viewsets.GenericViewSet):
 #     """
 #     获取热搜词列表

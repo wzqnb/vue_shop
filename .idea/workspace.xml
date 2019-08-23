@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="796444ed-aeff-4f43-8622-3f7aa92c3585" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/goods/filters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/goods/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/trade/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/user_operation/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/user_operation/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/signals.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/utils/permissions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/utils/yunpian.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ecda9c1c-9a45-4dfb-9331-4a6a1196478e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ecda9c1c-9a45-4dfb-9331-4a6a1196478e.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/goods/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/goods/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/user_operation/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/user_operation/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/users/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/users/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/utils/yunpian.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/utils/yunpian.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myshopping/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshopping/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myshopping/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myshopping/urls.py" afterDir="false" />
@@ -64,11 +52,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/users/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#176#1034#0" />
+                <element signature="e#1073#1413#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myshopping/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="32" column="62" lean-forward="true" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+            <state relative-caret-position="957">
+              <caret line="64" column="29" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="35" />
               <folding>
                 <element signature="e#634#666#0" expanded="true" />
               </folding>
@@ -77,38 +79,61 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/goods/serializers.py">
+        <entry file="file://$PROJECT_DIR$/apps/users/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2873">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="328">
+              <caret line="86" column="100" lean-forward="true" selection-start-line="86" selection-start-column="97" selection-end-line="86" selection-end-column="111" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+                <element signature="e#934#1485#0" />
+                <element signature="e#1557#2604#0" />
+                <element signature="e#2960#3141#0" />
+                <element signature="e#3241#3400#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/goods/views.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/user_operation/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="115" lean-forward="true" selection-start-line="109" selection-end-line="115" />
+            <state relative-caret-position="-305">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="e#0#61#0" expanded="true" />
-                <element signature="e#950#1088#0" />
-                <element signature="e#1373#3398#0" />
+                <element signature="e#18#79#0" expanded="true" />
+                <element signature="e#308#446#0" />
+                <element signature="e#978#1288#0" />
+                <element signature="e#1349#1681#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myshopping/settings.py">
+        <entry file="file://$PROJECT_DIR$/apps/user_operation/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="76" lean-forward="true" selection-start-line="71" selection-end-line="76" />
+            <state relative-caret-position="235">
+              <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
               <folding>
-                <element signature="e#311#320#0" expanded="true" />
-                <element signature="e#2017#2532#0" />
-                <element signature="e#2673#2801#0" />
-                <element signature="e#2933#3329#0" />
+                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#1514#1691#0" />
+                <element signature="e#1854#2252#0" />
+                <element signature="e#2304#2711#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/users/serializers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="891">
+              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+              <folding>
+                <element signature="e#424#1139#0" />
+                <element signature="e#518#1139#0" />
+                <element signature="e#1395#3808#0" />
+                <element signature="e#2348#2517#0" />
               </folding>
             </state>
           </provider>
@@ -151,11 +176,13 @@
         <option value="$PROJECT_DIR$/apps/user_operation/views.py" />
         <option value="$PROJECT_DIR$/apps/utils/permissions.py" />
         <option value="$PROJECT_DIR$/apps/user_operation/signals.py" />
-        <option value="$PROJECT_DIR$/apps/users/views.py" />
         <option value="$PROJECT_DIR$/apps/users/models.py" />
-        <option value="$PROJECT_DIR$/myshopping/settings.py" />
         <option value="$PROJECT_DIR$/myshopping/urls.py" />
         <option value="$PROJECT_DIR$/apps/goods/views.py" />
+        <option value="$PROJECT_DIR$/apps/users/views.py" />
+        <option value="$PROJECT_DIR$/apps/users/tests.py" />
+        <option value="$PROJECT_DIR$/apps/utils/yunpian.py" />
+        <option value="$PROJECT_DIR$/myshopping/settings.py" />
       </list>
     </option>
   </component>
@@ -203,6 +230,12 @@
               <item name="myshopping" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
               <item name="users" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myshopping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myshopping" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myshopping" type="b2602c69:ProjectViewProjectNode" />
@@ -304,6 +337,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="myshopping" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/users" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/users/tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="yunpian" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="myshopping" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/apps/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/apps/utils/yunpian.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="myshopping" type="Python.DjangoServer" factoryName="Django server">
       <module name="myshopping" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -330,6 +407,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.yunpian" />
+        <item itemvalue="Python.tests" />
         <item itemvalue="Python.import_product_data" />
         <item itemvalue="Python.import_category_data" />
       </list>
@@ -351,23 +430,24 @@
       <workItem from="1565759719245" duration="18110000" />
       <workItem from="1566192956689" duration="5935000" />
       <workItem from="1566363091181" duration="10532000" />
-      <workItem from="1566536840777" duration="8167000" />
+      <workItem from="1566536840777" duration="20943000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54450000" />
+    <option name="totallyTimeSpent" value="67226000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25978407" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21524966" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932525" visible="true" weight="0.2989214" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6194145" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932525" visible="true" weight="0.058551617" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.6733436" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -375,7 +455,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32973805" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32973805" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5006748" side_tool="true" weight="0.605547" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.22187981" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.09399076" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.32819724" />
       <window_info anchor="bottom" id="manage.py@myshopping" order="14" weight="0.6009245" />
@@ -383,7 +463,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.36504725" />
+      <window_info anchor="right" id="Database" order="4" weight="0.49662617" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2557355" />
@@ -422,66 +502,21 @@
           <line>1</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://C:/envs/vue_shop/Lib/site-packages/rest_framework/mixins.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/myshopping$import_category_data.coverage" NAME="import_category_data Coverage Results" MODIFIED="1565783062781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db_tools" />
+    <SUITE FILE_PATH="coverage/myshopping$tests.coverage" NAME="tests Coverage Results" MODIFIED="1566552428705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/users" />
     <SUITE FILE_PATH="coverage/myshopping$import_product_data.coverage" NAME="import_product_data Coverage Results" MODIFIED="1566193392115" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db_tools" />
+    <SUITE FILE_PATH="coverage/myshopping$yunpian.coverage" NAME="yunpian Coverage Results" MODIFIED="1566560596132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/apps/utils" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/media/brands/lyfs-1_QB7Vq1T.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/brands/lyfs-1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra_apps/xadmin/templatetags/xadmin_tags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
-          <folding>
-            <element signature="e#0#27#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="7" column="74" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/2_20170719161405_249.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/2_20170719161405_249_VXtw0x7.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/2_20170719161435_381.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/2_P_1448945810202.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/2_P_1448945810202_lGp49nw.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/2_P_1448945810202_tFI76bj.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/9_P_1448944791617.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/15_P_1448947257324.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/banner/banner1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/banner/banner2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/2_20170719161405_249_vK49DiO.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -558,44 +593,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="141" column="28" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-            <element signature="e#1909#3351#0" />
-            <element signature="e#3387#3732#0" />
-            <element signature="e#4241#4702#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/user_operation/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/trade/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/utils/yunpian.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -630,19 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/user_operation/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <element signature="e#755#1691#0" />
-            <element signature="e#1854#2252#0" />
-            <element signature="e#2304#2711#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/goods/filters.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
@@ -665,26 +653,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/goods/tests.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1246">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-          <folding>
-            <element signature="e#1924#2598#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db_tools/import_product_data.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -713,44 +681,264 @@
         <state relative-caret-position="-396" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myshopping/settings.py">
+    <entry file="file://$PROJECT_DIR$/apps/goods/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="76" lean-forward="true" selection-start-line="71" selection-end-line="76" />
-          <folding>
-            <element signature="e#311#320#0" expanded="true" />
-            <element signature="e#2017#2532#0" />
-            <element signature="e#2673#2801#0" />
-            <element signature="e#2933#3329#0" />
-          </folding>
+        <state relative-caret-position="-1982">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/goods/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="115" lean-forward="true" selection-start-line="109" selection-end-line="115" />
+        <state relative-caret-position="63">
+          <caret line="109" column="51" selection-start-line="109" selection-start-column="51" selection-end-line="109" selection-end-column="51" />
           <folding>
             <element signature="e#0#61#0" expanded="true" />
             <element signature="e#950#1088#0" />
-            <element signature="e#1373#3398#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/goods/serializers.py">
+    <entry file="file://$PROJECT_DIR$/apps/goods/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2873">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="165">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra_apps/DjangoUeditor/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#16#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/envs/vue_shop/Lib/site-packages/rest_framework/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="15" selection-start-line="15" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/envs/vue_shop/Lib/site-packages/httplib2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6633" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/utils/yunpian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
+          <folding>
+            <element signature="e#75#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myshopping/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="165" column="1" selection-start-line="165" selection-start-column="1" selection-end-line="165" selection-end-column="1" />
+          <folding>
+            <element signature="e#311#320#0" expanded="true" />
+            <element signature="e#3092#3488#0" />
+            <element signature="e#3593#4166#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#176#1034#0" />
+            <element signature="e#1073#1413#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python37/Lib/site-packages/rest_framework_jwt/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-205">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python37/Lib/site-packages/rest_framework_jwt/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="79" column="29" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="45" />
+          <folding>
+            <element signature="e#604#675#1" />
+            <element signature="e#811#1134#1" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myshopping/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="32" column="62" lean-forward="true" selection-start-line="32" selection-start-column="62" selection-end-line="32" selection-end-column="62" />
+        <state relative-caret-position="957">
+          <caret line="64" column="29" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="35" />
           <folding>
             <element signature="e#634#666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-991083293/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1393">
+          <caret line="731" column="6" selection-start-line="731" selection-start-column="6" selection-end-line="731" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python37/Lib/site-packages/rest_framework/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8960">
+          <caret line="105" column="6" selection-start-line="105" selection-start-column="6" selection-end-line="105" selection-end-column="6" />
+          <folding>
+            <element signature="e#15449#16296#0" />
+            <element signature="e#16351#16647#0" />
+            <element signature="e#16881#17904#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python37/Lib/site-packages/rest_framework/generics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-116">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding>
+            <element signature="e#803#858#1" />
+            <element signature="e#863#908#0" />
+            <element signature="e#1749#2726#0" />
+            <element signature="e#2762#3754#0" />
+            <element signature="e#3811#4123#0" />
+            <element signature="e#4169#4769#0" />
+            <element signature="e#4817#5018#0" />
+            <element signature="e#5069#5572#0" />
+            <element signature="e#5621#5940#0" />
+            <element signature="e#5993#6228#0" />
+            <element signature="e#6282#6476#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://ecda9c1c-9a45-4dfb-9331-4a6a1196478e/schema/main/table/django_session">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state projectRestartId="81acb2c3-a096-4f62-800e-070246509300">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python37/Lib/site-packages/rest_framework/viewsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="200" column="52" selection-start-line="200" selection-start-column="44" selection-end-line="200" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python37/Lib/site-packages/rest_framework/mixins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="907">
+          <caret line="60" column="6" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
+          <folding>
+            <element signature="e#1814#2684#0" />
+            <element signature="e#2724#3017#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/envs/vue_shop/Lib/site-packages/rest_framework/generics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-883">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding>
+            <element signature="e#1708#2685#0" />
+            <element signature="e#2721#2976#1" />
+            <element signature="e#3770#4082#0" />
+            <element signature="e#4128#4728#0" />
+            <element signature="e#4776#4977#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/envs/vue_shop/Lib/site-packages/rest_framework/viewsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="198" column="51" selection-start-line="198" selection-start-column="44" selection-end-line="198" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="86" column="100" lean-forward="true" selection-start-line="86" selection-start-column="97" selection-end-line="86" selection-end-column="111" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+            <element signature="e#934#1485#0" />
+            <element signature="e#1557#2604#0" />
+            <element signature="e#2960#3141#0" />
+            <element signature="e#3241#3400#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/user_operation/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#1514#1691#0" />
+            <element signature="e#1854#2252#0" />
+            <element signature="e#2304#2711#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/users/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+          <folding>
+            <element signature="e#424#1139#0" />
+            <element signature="e#518#1139#0" />
+            <element signature="e#1395#3808#0" />
+            <element signature="e#2348#2517#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/user_operation/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-305">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#18#79#0" expanded="true" />
+            <element signature="e#308#446#0" />
+            <element signature="e#978#1288#0" />
+            <element signature="e#1349#1681#0" />
           </folding>
         </state>
       </provider>
